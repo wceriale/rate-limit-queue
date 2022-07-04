@@ -1,0 +1,15 @@
+{
+  "name": "rate-limit-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wceriale/rate-limit-queue.git",
+  "author": "Will <will@ruta-verde.org>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "node": "^18.4.0",
+    "request": "^2.88.2",
+    "simple-rate-limiter": "^0.2.3"
+  }
+}
