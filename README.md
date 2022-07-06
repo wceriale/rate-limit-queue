@@ -1,6 +1,6 @@
 # rate-limit-queue
 
-Basic rate limiter implementation. Only supports sending basic get requests.
+Basic rate limiter implementation. Supports sending 0 arg get requests.
 
 Install dependencies with:
 `yarn install`
