@@ -69,12 +69,12 @@ class RateLimiter {
 
     }
 
-    // function to pop the queue and send the request if tokens are available.
+    // function to shift (remove first element) from the queue and send the request if tokens are available.
     // TODO: make private.
     sendRequest () {
         if (this.currTokens > 0 && this.requestQueue.length > 0) {
             this.currTokens--;
-            this.requestQueue.pop()();
+            this.requestQueue.shift()();
             this.sentCounter++;
             console.log('requests sent: ' + this.sentCounter);
         }
